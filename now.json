@@ -3,7 +3,7 @@
   "builds": [{ "src": "index.js", "use": "@vercel/node-bridge" }],
   "routes": [
     {
-      "src": "/users",
+      "src": "/api/bookmarks",
       "dest": "/index.js",
       "methods": ["GET"]
     },
